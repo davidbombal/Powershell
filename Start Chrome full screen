@@ -1,0 +1,3 @@
+#Start Chrome, navigate to a URL and go full screen
+
+Start-Process chrome https://www.youtube.com/davidbombal ; Start-Sleep -Milliseconds 750 ; [void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms') ; [System.Windows.Forms.SendKeys]::SendWait("{F11}")
