@@ -1,0 +1,3 @@
+# Create a file and write a line of code
+
+$content = 'Line1' | out-file -filepath C:\temp\test1.txt
