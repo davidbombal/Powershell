@@ -1,0 +1,3 @@
+#Kill Chrome using powershell
+
+taskkill /IM "chrome.exe" /F
