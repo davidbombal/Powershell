@@ -1,0 +1,4 @@
+# Start chrome maximized
+
+start chrome http://www.youtube.com/davidbombal/videos -WindowStyle maximized
+
